@@ -38,7 +38,7 @@ class TypeWriter {
     }
 
     // Insert txt into element
-    this.txtElement.innerHTML = `<span class="txt">S${this.txt}</span>`;
+    this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
     // Initial Type Speed
     let typeSpeed = 300;
